@@ -92,7 +92,7 @@ export default function ParaGraphCard() {
             {openInput && (
                 <div className="container d-flex justify-content-center">
                     <div className="align-self-center">
-                        <input className='w-100 fs-5' placeholder={para} value={userInput} onChange={userInputHandler}/>
+                        <input className='w-100 fs-5' placeholder="start type from here" value={userInput} onChange={userInputHandler}/>
                     </div>
                 </div>
             )}
